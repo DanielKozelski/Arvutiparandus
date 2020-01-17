@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Arvutiparandus.Models.Tellimus>
+
+@{
+    ViewBag.Title = "Tellimused";
+}
+
+<h2>Tellimused</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Arvutityyp)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Teenused)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Klient)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tehtud)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Makstud)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Arvutityyp)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Teenused)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Klient)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tehtud)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Makstud)
+        </td>
+        <td>
+            @Html.ActionLink("Kustuta", "KustutaTellimus", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>
