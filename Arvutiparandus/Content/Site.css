@@ -1,8 +1,11 @@
 ﻿body {
     background-color: #ffa259;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Alata', sans-serif;
     padding-top: 50px;
     padding-bottom: 20px;
+}
+h2 {
+    font-family: 'Alata', sans-serif;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -33,4 +36,38 @@ textarea {
     height: 150px;
     text-indent: -9999px
 }
+.form-horizontal{
+    border-color:black;
+}
+
+#Arvutityyp {
+    background-color: #333333;
+    color: #ffa259;
+    border-color: #ffa259;
+}
+
+#TeenusedNimekiri {
+    background-color: #333333;
+    color: #ffa259;
+    border-color: #ffa259;
+}
+
+#Teenused {
+    background-color: #333333;
+    color: #ffa259;
+    border-color: #ffa259;
+}
+
+#Klient {
+    background-color: #333333;
+    color: #ffa259;
+    border-color: #ffa259;
+}
+
+.btn btn-button {
+    color: #ffa259;
+    
+}
+
+
 
