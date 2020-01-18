@@ -1,7 +1,8 @@
 ﻿body {
+    background-color: #ffa259;
+    font-family: 'Open Sans', sans-serif;
     padding-top: 50px;
     padding-bottom: 20px;
-    background-color: #f77754;
 }
 
 /* Set padding to keep content from hitting the edges */
