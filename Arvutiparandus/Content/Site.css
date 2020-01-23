@@ -64,6 +64,10 @@ textarea {
     border-color: #ffa259;
 }
 
+a:hover {
+    color:#ffa259 !important;
+}
+
 
 
 
