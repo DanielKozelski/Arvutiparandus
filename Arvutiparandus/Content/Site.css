@@ -65,7 +65,12 @@ textarea {
 }
 
 a:hover {
-    color:#ffa259 !important;
+    color: #8cba51 !important;
+}
+
+.logo{
+    width:200px;
+    height:200px;
 }
 
 
