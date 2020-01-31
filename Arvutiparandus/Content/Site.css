@@ -73,6 +73,14 @@ a:hover {
     height:200px;
 }
 
+.btn {
+    color: #ffa259 !important;
+    background: #333333 !important;
+}
+.btn:hover{
+    color:#e41749 !important;
+}
+
 
 
 
