@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arvutiparandus", "Arvutiparandus\Arvutiparandus.csproj", "{10E9AC94-C683-4E40-A432-72EB0B7A82E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arvutiparandus.Test", "Arvutiparandus.Test\Arvutiparandus.Test.csproj", "{45029322-5C77-4017-AD1A-388601D0276C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{10E9AC94-C683-4E40-A432-72EB0B7A82E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10E9AC94-C683-4E40-A432-72EB0B7A82E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10E9AC94-C683-4E40-A432-72EB0B7A82E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45029322-5C77-4017-AD1A-388601D0276C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45029322-5C77-4017-AD1A-388601D0276C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45029322-5C77-4017-AD1A-388601D0276C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45029322-5C77-4017-AD1A-388601D0276C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
